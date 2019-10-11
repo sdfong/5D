@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, h1, h2, h3, h4, h5, h6, p,img {
+	max-width: 1920px
+} center,  ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section,
+
+/* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section { display: block; } 
+
+h1 	{
+	color: black;
+    font-family: helvetica;
+    font-size: 100px;}
+
+p 	{
+	color: black;
+    font-family: helvetica;
+    font-size: 50px;}
+
+
+#container {
+	width: 1920px; /* 1880x880 */
+	height: 921px;
+	float: left; /*see below for description of float*/
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px; 
+	background: #fffffa; /*almost white color*/
+	}
+
+#lefthalf {
+	width: 1098px;
+	height: 921px;
+	float: left; /*see below for description of float*/
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px; /*padding pushes items inside the object*/
+	margin-right: 0px; /*margin pushes items outside the object*/
+	/*margin-top: 20px;
+	margin-bottom: 20px;*/
+	background: #F00; /*same as background */
+	}
+
+#title {
+	width: 800px;
+	height: 120px;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-top: 400px;
+	margin-left: auto;
+	margin-right: auto;
+
+	background: #fffffa; /*same as background*/
+}
+
+#verticalBar {
+	width: 30px;
+	height: 400px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-top: 35px;
+	/*margin-right: 100px;*/
+	margin-left: 0px;
+	float: left;
+	background: #FFDEDE; /*pink variation*/
+	}
+
+#righthalf {
+	width: 720px;
+	height: 921px;
+	float: left;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: #00F;
+	}
+
+#textboxLinks {
+	width: 550px;
+	height: 470px;
+	padding-top: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	float: left;
+	background: #fffffa; /*brown*/
+	}
+
+#textHolder {
+	width: 600px;
+	height: 470px;
+	padding-top: 0px;
+	margin-top: 200px;
+	margin-right: 0px;
+	padding-left: 0px;
+	float: left;
+	background: #fffffa; /*brown*/
+	}

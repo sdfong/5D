@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, h1, h2, h3, h4, h5, h6, p,img {
+	max-width: 1600px
+} center,  ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section,
+
+/* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section { display: block; } 
+
+h1 	{
+	color: black;
+    font-family: helvetica;
+    font-size: 100px;}
+
+p 	{
+	color: black;
+    font-family: helvetica;
+    font-size: 30px;}
+
+
+#container {
+	width: 1920px;
+	height: 921px;
+	float: left; /*see below for description of float*/
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px; /*padding pushes items inside the object*/
+	/*margin-right: 00px; margin pushes items outside the object
+	margin-top: 20px;
+	margin-bottom: 20px;*/
+	background: #fffffa; /*almost white color*/
+	/*overflow: visible;*/
+	}
+#lefthalf {
+	width: 1098px;
+	height: 921px;
+	float: left; /*see below for description of float*/
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px; /*padding pushes items inside the object*/
+	margin-right: 0px; /*margin pushes items outside the object*/
+	/*margin-top: 20px;
+	margin-bottom: 20px;*/
+	background: #fffffa; /*same as background */
+	}
+#title {
+	width: 750px;
+	height: 120px;
+	padding-left: 65px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background: #fffffa; /*same as background*/
+}
+#rectangleUnderline {
+	width: 800px;
+	height: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/*margin-right: 100px;*/
+	margin-left: 65px;
+	/*float: left;*/
+	background: #FFDEDE; /*pink variation*/
+	}
+#textbox {
+	width: 1000px;
+	height: 650px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	padding-left: 65px;
+	/* background: #fffffa; /*brown*/
+	}
+#righthalf {
+	width: 490px;
+	height: 921px;
+	float: right;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background:  #fffffa; /*cyan*/
+	}
+#homeButton {
+	width: 225px;
+	height: 35px;
+	float: right;
+	padding-top: 115px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: #fffffa; /*red*/
+	}
+	/*	The float property is used for positioning and layout on web pages.
+
+		The float property can have one of the following values:
+
+		left - The element floats to the left of its container
+		right- The element floats to the right of its container
+		none - The element does not float (will be displayed just where it occurs in the text). This is default
+		inherit - The element inherits the float value of its parent
+
+		https://www.w3schools.com/css/css_float.asp*/
