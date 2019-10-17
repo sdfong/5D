@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, h1, h2, h3, h4, h5, h6, p,img {
+	max-width: 1920px
+} center,  ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section,
+
+/* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section { display: block; } 
+
+h1 	{
+	color: black;
+    font-family: helvetica;
+    font-size: 100px;}
+
+h2 	{
+	color: black;
+    font-family: helvetica;
+    font-size: 50px;}
+
+p 	{
+	color: black;
+    font-family: helvetica;
+    font-size: 30px;}
+
+
+#container {
+	width: 1880px;
+	height: 880px;
+	float: left;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px; 
+	background: #fffffa; /*almost white color*/
+	/*overflow: visible;*/
+	}
+
+#lefthalf {
+	width: 1128px; /* 1128 is 60%, 752 is 40% */
+	height: 880px;
+	float: left; 
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px; 
+	margin-right: 0px; 
+	background: #fffffa; /*same as container */
+	}
+
+#title {
+	width: 1000px;
+	height: 120px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-left: 65px;
+	background: #fffffa; /*same as background*/
+}
+
+#hometitle {
+	width: 1000px;
+	height: 120px;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-top: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	/* background: #fffffa; same as background*/
+} 
+
+#rectangleUnderline {
+	width: 800px;
+	height: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/*margin-right: 100px;*/
+	margin-left: 65px;
+	/*float: left;*/
+	background: #FFDEDE; /*pink variation*/
+	}
+
+#verticalBar {
+	width: 30px;
+	height: 400px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-top: 35px;
+	/*margin-right: 100px;*/
+	margin-left: 0px;
+	float: left;
+	background: #FFDEDE; /*pink variation*/
+	}
+
+#textbox {
+	width: 1000px;
+	height: 650px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 0px;
+	padding-left: 65px;
+	/* background: #fffffa; /*brown*/
+	}
+	
+#righthalf {
+	width: 752px;
+	height: 880px;
+	float: left;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background:  #fffffa; /*cyan*/
+	}
+
+/* for homepage */
+#textHolder {
+	width: 600px;
+	height: 470px;
+	padding-top: 0px;
+	margin-top: 200px;
+	margin-right: 0px;
+	padding-left: 0px;
+	float: left;
+	background: #fffffa; /*brown*/
+	}
+
+/* for homepage */
+#textboxLinks {
+	width: 550px;
+	height: 470px;
+	padding-top: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	float: left;
+	background: #fffffa; /*brown*/
+	}
+
+#homeButton {
+	width: 225px;
+	height: 35px;
+	float: left;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 462px;
+	margin-top: 115px;
+	margin-bottom: 0px;
+	background: #fffffa; /*red*/
+	}
+

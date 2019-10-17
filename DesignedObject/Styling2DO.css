@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, h1, h2, h3, h4, h5, h6, p,img {
+	max-width: 1920px
+} center,  ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section,
+
+/* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section { display: block; } 
+
+h1 	{
+	color: black;
+    font-family: helvetica;
+    font-size: 100px;}
+
+h2 	{
+	color: black;
+    font-family: helvetica;
+    font-size: 50px;}
+
+p 	{
+	color: black;
+    font-family: helvetica;
+    font-size: 30px;}
+
+h3 	{
+	color: black;
+    font-family: helvetica;
+    font-size: 20px;} 
+
+
+#container {
+	width: 1880px;
+	height: 880px;
+	float: left; /*see below for description of float*/
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background: #fffffa; /*almost white color*/
+	/*overflow: visible;*/
+	}
+
+#lefthalf {
+	width: 846px; /* 45% = 846, 55% = 1034 */
+	height: 700px;
+	float: left;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	/*margin-top: 20px;
+	margin-bottom: 20px;*/
+	background: #fffffa; /*same as background */
+	}
+
+#titleBox {
+	width: 1600px;
+	height: 180px;
+	float: left;
+	padding-top: 0px;
+	padding-left: 65px;
+	padding-right: 0px; /*padding pushes items inside the object*/
+	margin-right: 0px; 
+	margin-left: 0px;
+	margin-top: 0px;
+	background: #fffffa; /*same as background*/
+}
+
+#textbox {
+	width: 650px;
+	height: 650px;
+	float: left;
+	margin-top: 0px;
+	padding-right: 65px;
+	padding-left: 65px;
+	/* background: #fffffa; /*brown*/
+	}
+
+#righthalf {
+	width: 975px;
+	height: 700px;
+	float: left;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: #fffffa; /*cyan*/
+	}
+
+#leftPictureBox {
+	width: 610px;
+	height: 610px;
+	float: left;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 50px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	background: #FFDEDE; /*cyan*/
+	}
+
+#rightPictureBox {
+	width: 800px;
+	height: 610px;
+	float: left;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 50px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	/*background: #FFDEDE;*/
+	}
+
+#captionBox {
+	width: 500px;
+	height: 50px;
+	float: left;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	/* background: #fffffa; */
+	}
+
+#navButtons {
+	width: 200px;
+	height: 75px;
+	float: left;
+	padding-top: 115px;
+	padding-left: 50px;
+	background: #fffffa; /*red*/
+	}
+
+#chopsticksramen{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:700px;
+  height:610px;
+	}
+
+#situartivive{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:700px;
+  height:610px;
+	}
+
+#swimmingpool{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:700px;
+  height:610px;
+	}
+
+#publicArtivive{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:700px;
+  height:610px;
+	}
+
+#chopsticksdrawing{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width:500px;
+  height:500px;
+	}
