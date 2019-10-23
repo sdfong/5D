@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, h1, h2, h3, h4, h5, h6, p,img {
+max-width: 1600px;  height:100%;
+} /*height for HTML and BODY set the maximum size of a window*/
+
+ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, section, article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section,  .container, #box1img, #imgHold, #box2infoholder { display: block; } 
+
+.container{
+	width: 100%;
+	height: auto;
+	font-family: Optima; 
+	background-color: #588BAE;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+#imagebox{
+	width: 80%;
+	height: auto;
+	max-width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+	/* background-color: #95C8D8;  */
+	height: auto;
+}
+#imageHolder IMG {
+	width: 80%;
+	height: auto;
+}
+#textbox {
+	font-family: optima;,font-size: 15px; line-height: 20px;
+	text-align: center; color: #FFF;
+	width: 65%;
+	max-width: 500px;
+	height: auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	/* background-color: #B0DFE5; */
+}
