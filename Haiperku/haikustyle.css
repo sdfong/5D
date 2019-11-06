@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, h1, h2, h3, h4, h5, h6, p,img {
+	max-width: 1920px;
+	height: 100%;
+}
+
+p 	{
+	color: black;
+    font-family: times;
+    font-size: 48px;}
+
+
+#container{
+	width: 100%;
+	height: 1000;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+body {
+	background-color: white;
+}
+
+#textbox {
+	width: 100%;
+	height: 250px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+
+.planetbox{
+	width: 45%;
+	height: 700px;
+	padding-left: 40px;
+	padding-right: 40px;
+	animation-name: spin;
+	float: left;
+	animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}
+
+#imgholder{
+	width: 100%;
+	height: 700px;
+	padding-left: 0px;
+	padding-right: 0px;
+	float: left;
+}
+
+
+#imgover{
+	width: 60%;
+	height: 500px;
+
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.planetbox:hover {
+	animation-play-state: running;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#star1window{
+	height: 75px;
+	width: 75px;
+	animation-name: spin;
+	float: left;
+	animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}
+
+#star2window{
+	height: 75px;
+	width: 75px;
+	animation-name: spin;
+	float: left;
+	animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}
+
+#star2window:hover {
+	animation-play-state: running;
+}
+
+#star1window:hover {
+	animation-play-state: running;
+}
