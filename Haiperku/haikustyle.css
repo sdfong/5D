@@ -34,6 +34,16 @@ body {
 	text-align: center;
 	}
 
+#textboxh2 {
+	width: 700px;
+	height: 250px;
+	float: left;
+	text-align: center;
+	position: relative;
+	top: 800px;
+	left: 100px;
+}
+
 .planetbox{
 	width: 45%;
 	height: 700px;
@@ -50,17 +60,37 @@ body {
 #imgholder{
 	width: 100%;
 	height: 700px;
-	padding-left: 0px;
-	padding-right: 0px;
+	position: relative;
 	float: left;
+	z-index: 1;
 }
 
 
 #imgover{
-	width: 60%;
-	height: 500px;
-
+	width: 250px;
+	height: 400px;
+	position: relative;
+	top: -550px;
+	left: 950px;
+	z-index: 2;
 }
+
+#background{
+	width: 1900;
+	height: 1040;
+	position: relative;
+	z-index: 1;
+}
+
+#imgholdfull{
+	width: 1500;
+	height: 1000;
+	float: left;
+	position: relative;
+	top: -1120px;
+	z-index: 2;
+}
+
 
 @keyframes spin {
     from {
@@ -83,31 +113,113 @@ body {
 }
 
 #star1window{
-	height: 75px;
-	width: 75px;
+	height: 90px;
+	width: 90px;
 	animation-name: spin;
 	float: left;
 	animation-duration: 5000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-play-state: paused;
+    position: relative;
+    top: 230px;
+    left: 55px;
 }
 
 #star2window{
-	height: 75px;
-	width: 75px;
+	height: 90px;
+	width: 90px;
 	animation-name: spin;
 	float: left;
 	animation-duration: 5000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-play-state: paused;
+    position: relative;
+    top: 55px;
+    left: 10px;
+
 }
+
+#planet1{
+	height: 250px;
+	width: 250px;
+	animation-name: spin;
+	float: left;
+	animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    position: relative;
+    left: 450px;
+    top: 30px;
+}
+
+#planet2{
+	height: 175px;
+	width: 175px;
+	animation-name: spin;
+	float: left;
+	animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    position: relative;
+    left: 1200px;
+    top: 200px;
+
+}
+
+#planet3{
+	height: 150px;
+	width: 150px;
+	animation-name: spin;
+	float: left;
+	animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    position: relative;
+    left: 75px;
+    top: 880px;
+}
+
+#planetcenter{
+	height: 500px;
+	width: 500px;
+	animation-name: spin;
+	float: left;
+	animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    position: relative;
+    left: 150px;
+    top: 220px;
+}
+
+
 
 #star2window:hover {
 	animation-play-state: running;
 }
 
 #star1window:hover {
+	animation-play-state: running;
+}
+
+#planet1:hover {
+	animation-play-state: running;
+}
+
+#planet2:hover {
+	animation-play-state: running;
+}
+
+#planet3:hover {
+	animation-play-state: running;
+}
+
+#planetcenter:hover {
 	animation-play-state: running;
 }
