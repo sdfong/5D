@@ -1,0 +1,39 @@
+$("document").ready(function() {			
+		
+		$('.Dwn1').click(function(){
+			$('html, body').animate({
+				scrollTop: $('.container2').offset().top
+			}, 1000);				   				   
+		 }); 
+
+		$('.Dwn2').click(function(){		   
+			$('html, body').animate({
+				scrollTop: $('.container3').offset().top
+			}, 1000);	
+		 });							   	 
+			 
+		$('.Dwn3').click(function(){			   
+		 	$('html, body').animate({
+		 		scrollTop: $('.container4').offset().top
+		 	}, 1000);
+		 });
+		 
+		$('.Dwn4').click(function(){
+			$('html, body').animate({
+				scrollTop: $('.container4').offset().top
+			}, 1000);				   
+		 });	
+
+		$('.Up').click(function(){
+			$('html, body').animate({
+				scrollTop: $('.container').offset().top
+			}, 1000);				   
+		 });
+
+		$('.Dwnstky').click(function(){
+			$('html, body').animate({
+				scrollTop: $('.container3').offset().top
+			}, 1000);				   
+		 });
+
+});

@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, h1, h2, h3, h4, h5, h6, p,img {
+	max-width: 1920px;
+} center,  ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section,
+
+/* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section { display: block; } 
+
+h1 	{
+	color: black;
+    font-family: Monaco;
+    font-style: normal;
+    font-size: 40px;}
+
+h2 	{
+	color: #b8c9cf;
+    font-family: Monaco;
+    font-style: normal;
+    font-size: 35px;}
+
+p 	{
+	color: black;
+	font-style: normal;
+    font-family: Monaco;
+    font-size: 20px;}
+
+#container1 {
+	width: 100%;
+	height: 100%;
+	float: left;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: px;
+	background: white;
+	text-align: center;
+	}
+
+
+#leftcolumn {
+	width: 40%;
+	height: auto;
+	float: left;
+	padding-top: 0%;
+	margin-right: 2.5%;
+	margin-left: 7.5%;
+	/*margin-top: 20px;
+	margin-bottom: 20px;*/
+	background-color: black;
+		}
+
+#PictureBox {
+	width: 30%;
+	height: 100%;
+	float: left;
+	position: relative;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: gray; 
+	display: block;
+	text-align: center;
+
+	}
+
+#rightcolumn {
+	width: 40%;
+	height: auto;
+	float: left;
+	padding-top: 0%;
+	margin-right: 5%;
+	margin-left: 2.5%;
+	background-color: black;
+	}
+
+
+
+#pplrightcolumn {
+	width: 24%;
+	height: auto;
+	float: left;
+	padding-top: 0%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	background-color: black;
+	}
+
+#pplleftcolumn {
+	width: 24%;
+	height: auto;
+	float: left;
+	padding-top: 0%;
+	margin-right: 2.5%;
+	margin-left: 7%;
+	background-color: black;
+	}
+
+#pplmiddlecolumn {
+	width: 24%;
+	height: auto;
+	float: left;
+	padding-top: 0%;
+	margin-right: 4.5%;
+	margin-left: 4.5%;
+	background-color: black;
+	}
+
+
+
+#homerightcolumn {
+	width: 30%;
+	height: auto;
+	float: left;
+	padding-top: 0%;
+	margin-right: 0%;
+	margin-left: 0%;
+	background-color: white;
+	}
+
+#homeleftcolumn {
+	width: 30%;
+	height: auto;
+	float: left;
+	padding-top: 0%;
+	margin-right: 0%;
+	margin-left: 5%;
+	background-color: white;
+	}
+
+#homemiddlecolumn {
+	width: 30%;
+	height: auto;
+	float: left;
+	padding-top: 0%;
+	margin-right: 0%;
+	margin-left: 0%;
+	background-color: white;
+	}
+
+
+
+#titleBox {
+	width: 100%;
+	height: 180px;
+	float: left;
+	padding-top: 50px;
+	padding-left: 65px;
+	padding-right: 0px;
+	margin-right: 0px; 
+	margin-left: 0px;
+	margin-top: 50px;
+	background: white;
+	text-align: center; 
+	display: inline-block;
+
+}
+
+#textbox {
+	width: 40%;
+	height: 100%;
+	float: left;
+	margin-top: 0px;
+	margin-left: 2.5%;
+	padding-right: 0px;
+	padding-left: 0px;
+	display: block;
+	position: relative;
+	text-align: left
+
+
+	/* background: #fffffa; /*brown*/
+	}
+
+
+
+#rightPictureBox {
+	width: 30%;
+	height: 610px;
+	float: left;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 50px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	}
+
+#leftPictureBox {
+	width: 30%;
+	height: 610px;
+	float: left;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 50px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+#aboutpic {
+	width: 28%;
+	height: auto;
+	float: left;
+	margin-left: 10%;
+	margin-right: 2.5%;
+	margin-bottom: 5%;
+	position: relative;
+	display: block;
+	text-align: center; 
+}
+
+#placesphoto {
+	width: 95%;
+	height: auto;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	position: relative;
+	display: block;
+	text-align: center; 
+}
+
+#peoplephoto {
+	width: 95%;
+	height: auto;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	position: relative;
+	display: block;
+	text-align: center; 
+}
+
+
